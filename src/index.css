@@ -12,3 +12,61 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.square {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+}
+
+.square:hover {
+  border-color: green;
+  transform: scale(1.1);
+}
+.square:focus,
+.square:focus-visible {
+  outline: 8px auto -webkit-focus-ring-color;
+}
+
+.game-square {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  gap: 12px;
+
+  margin: 0 auto;
+  padding: 15px 0;
+  border: 1px solid gold;
+  box-shadow: 5px 5px 20px rgba(255, 215, 0, 0.5);
+  position: relative;
+  background-color: #1a1a1a;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.alert-notification {
+  position: absolute;
+  top: 39%;
+  left: 24%;
+  border: 3px solid gold;
+  width: 220px;
+
+  color: gold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.counter {
+  font-weight: bolder;
+  font-size: 24px;
+  width: 50px;
+  background: #1a1a1a;
+  border-radius: 8px;
+}
