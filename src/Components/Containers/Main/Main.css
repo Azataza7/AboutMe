@@ -1,0 +1,29 @@
+.biography span {
+  font-weight: 600;
+}
+
+.image img {
+  border-radius: 10px;
+  border: 3px solid green;
+}
+
+.biography {
+  border: 3px solid green;
+  border-radius: 10px;
+  padding: 25px 10px;
+  background-color: #eef8ee;
+}
+
+.education-title {
+  padding: 20px;
+  background: url("https://www.creativefabrica.com/wp-content/uploads/2020/09/01/Education-logo-design-Graphics-5213937-1.jpg") no-repeat;
+  background-size: 200px;
+  background-position: left;
+}
+
+.education span {
+  margin-bottom: 20px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/240px-Eo_circle_green_checkmark.svg.png") no-repeat;
+  background-size: 30px;
+  background-position: left;
+}
